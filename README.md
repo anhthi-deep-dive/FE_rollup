@@ -8,3 +8,5 @@
   npm i -D @rollup/plugin-node-resolve @rollup/plugin-commonjs @rollup/plugin-typescript rollup-plugin-peer-deps-external @rollup/plugin-terser
  rollup-plugin-dts
 ```
+
+Refer: `https://blog.logrocket.com/how-to-build-component-library-react-typescript/`

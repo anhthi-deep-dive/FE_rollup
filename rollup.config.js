@@ -23,17 +23,17 @@ export default [
       },
     ],
     plugins: [
+      typescript(),
       peerDepsExternal(),
       resolve(),
       commonjs(),
-      typescript({ tsconfig: "./tsconfig.json" }),
       terser(),
     ],
     external: ["react", "react-dom", "styled-components"],
   },
   {
-    input: "src/index.ts",
-    output: [{ file: "dist/types.d.ts", format: "es" }],
+    input: "dist/cjs/types/index.d.ts",
+    output: [{ file: "dist/index.d.ts", format: "esm" }],
     plugins: [dts.default()],
   },
 ];

@@ -5,6 +5,8 @@ interface ButtonProps {
   text: string | ReactNode;
 }
 
-export const Button: FC<ButtonProps> = ({ text }) => {
+const Button: FC<ButtonProps> = ({ text }) => {
   return <StyledButton>{text}</StyledButton>;
 };
+
+export default Button;

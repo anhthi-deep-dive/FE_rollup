@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/cjs/index.js",
+  "files": [
+    "dist"
+  ],
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
