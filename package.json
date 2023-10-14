@@ -16,7 +16,7 @@
     "url": "git+https://github.com/anhthi-deep-dive/FE_rollup.git"
   },
   "publishConfig": {
-    "anhthi-ieig:registry": "https://npm.pkg.github.com"
+    "anhthi-deep-dive:registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "",
