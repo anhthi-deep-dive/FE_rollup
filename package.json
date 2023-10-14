@@ -29,6 +29,7 @@
     "@rollup/plugin-typescript": "^11.1.5",
     "@types/styled-components": "^5.1.28",
     "react": "^18.2.0",
+    "react-error-boundary": "^4.0.11",
     "rollup": "^4.0.2",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
