@@ -1,6 +1,6 @@
 {
   "name": "@anhthi-deep-dive/fe_rollup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/cjs/index.js",
   "files": [
