@@ -25,6 +25,9 @@
     "url": "https://github.com/anhthi-deep-dive/FE_rollup/issues"
   },
   "homepage": "https://github.com/anhthi-deep-dive/FE_rollup#readme",
+  "dependencies": {
+    "react-error-boundary": "^4.0.11"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.5",
     "@rollup/plugin-node-resolve": "^15.2.3",
@@ -38,7 +41,8 @@
     "styled-components": "^6.0.9",
     "typescript": "^5.2.2"
   },
-  "dependencies": {
-    "react-error-boundary": "^4.0.11"
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "18.2.0"
   }
 }
